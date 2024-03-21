@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: AppDaemon (YC edition)
+# Home Assistant Community Add-on: AppDaemon (iTechstro edition)
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
