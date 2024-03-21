@@ -1,4 +1,4 @@
-name: AppDaemon (YC version)
+name: AppDaemon (iTechstro version)
 version: 0.16.4
 slug: appdaemon
 description: Python Apps and Dashboard using AppDaemon 4.x for Home Assistant
@@ -14,7 +14,7 @@ homeassistant_api: true
 uart: true
 ports:
   5050/tcp: 5050
-  65432/tcp: 65432
+  10001/tcp: 10001
 ports_description:
   5050/tcp: AppDaemon
   65432/tcp: TCPServer
