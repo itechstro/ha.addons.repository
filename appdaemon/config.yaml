@@ -15,9 +15,11 @@ uart: true
 ports:
   5050/tcp: 5050
   10001/tcp: 10001
+  10002/tcp: 10002
 ports_description:
   5050/tcp: AppDaemon
   65432/tcp: TCPServer
+  10002/tcp: TCPServer
 map:
 - addon_config:rw
 - homeassistant_config:rw
