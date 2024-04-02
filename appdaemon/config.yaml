@@ -1,5 +1,5 @@
 name: AppDaemon (iTechstro version)
-version: 0.16.4
+version: 0.16.4.2
 slug: appdaemon
 description: Python Apps and Dashboard using AppDaemon 4.x for Home Assistant
 url: https://github.com/hassio-addons/addon-appdaemon
@@ -14,12 +14,12 @@ homeassistant_api: true
 uart: true
 ports:
   5050/tcp: 5050
-  10001/tcp: 10001
-  10002/tcp: 10002
+  40000/tcp: 40000
+  40001/tcp: 40001
 ports_description:
   5050/tcp: AppDaemon
-  65432/tcp: TCPServer
-  10002/tcp: TCPServer
+  40000/tcp: TCPServer
+  40001/tcp: TCPServer
 map:
 - addon_config:rw
 - homeassistant_config:rw
