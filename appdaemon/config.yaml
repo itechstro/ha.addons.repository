@@ -14,12 +14,12 @@ homeassistant_api: true
 uart: true
 ports:
   5050/tcp: 5050
-  40000/tcp: 20000
-  40001/tcp: 20001
+  20000/tcp: 20000
+  20001/tcp: 20001
 ports_description:
   5050/tcp: AppDaemon
-  20000/tcp: TCPServer
-  20001/tcp: TCPServer
+  20000/tcp: TCPServer0
+  20001/tcp: TCPServer1
 map:
 - addon_config:rw
 - homeassistant_config:rw
