@@ -1,4 +1,4 @@
-name: AppDaemon
+name: AppDaemon (iTechstro edition)
 version: 0.16.6
 slug: appdaemon
 description: Python Apps and Dashboard using AppDaemon 4.x for Home Assistant
@@ -14,8 +14,12 @@ homeassistant_api: true
 uart: true
 ports:
   5050/tcp: 5050
+  20000/tcp: 20000
+  20001/tcp: 20001
 ports_description:
   5050/tcp: AppDaemon
+  20000/tcp: TCPServer0
+  20001/tcp: TCPServer1
 map:
 - addon_config:rw
 - homeassistant_config:rw
